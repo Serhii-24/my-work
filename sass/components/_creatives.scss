@@ -7,11 +7,11 @@
 
   background-size: cover;
   background-image:$gradient,
-   url('../../image/backing.jpg');
+   url('../image/backing.jpg');
   
   @media screen and(min-resolution: 2dppx) {
     background-image:$gradient,
-     url('../../image/backing@2x.jpg');
+     url('../image/backing@2x.jpg');
   }
 }
 .creatives__name{
