@@ -24,3 +24,10 @@ margin-left: auto;
   gap: 20px;
   margin-left: 60px;
 }
+.header__line{
+  position: absolute;
+  z-index: 999;
+  border-bottom: 1px solid $underline-color;
+  min-width: 100%;
+  height: 101px;
+}

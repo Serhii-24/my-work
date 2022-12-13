@@ -4,7 +4,7 @@
   margin-right: auto;
   padding-top: 460px;
   padding-bottom: 80px;
-
+ 
   background-size: cover;
   background-image:$gradient,
    url('../image/backing.jpg');
@@ -52,4 +52,8 @@
   align-items: center;
 
   gap:20px;
+}
+.creatives__underline{
+ border: 2px solid red;
+ margin-top: 1xp;
 }
