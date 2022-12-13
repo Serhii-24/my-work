@@ -1,0 +1,27 @@
+.footer__container{
+  background-color: $footer-color;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.info{
+  display: flex;
+  position: relative;
+}
+.info__about{
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+
+  margin-left: 60px;
+  color: $info-text;
+}
+.info__security{
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: $info-text;
+  
+  margin-left: auto;
+}

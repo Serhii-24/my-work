@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat';
+  color: var(--primary-text-color);
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul, a {
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  box-sizing: border-box;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+form{
+  display: block;
+}

@@ -1,0 +1,23 @@
+.project{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  padding-top: 240px;
+  padding-bottom: 300px;
+background-image:$gradient-project,
+url('../../image/project.jpg');
+@media screen and(min-resolution:2dppx) {
+  background-image: $gradient-project,
+  url('../../image/project@2x.jpg');
+}
+}
+.project__title{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.33;
+  text-align: center;
+  margin-bottom: 100px;
+  @include text-transform;
+  }

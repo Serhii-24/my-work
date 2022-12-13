@@ -1,0 +1,26 @@
+.header__container{
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  width: 1380px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  }
+.items{
+display: flex;
+gap:  30px;
+margin-left: auto;
+}
+.items__link{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.6;
+  @include text-transform;
+}
+.items__nav{
+  display: flex;
+  gap: 20px;
+  margin-left: 60px;
+}

@@ -1,0 +1,55 @@
+.creatives{ 
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 460px;
+  padding-bottom: 80px;
+
+  background-size: cover;
+  background-image:$gradient,
+   url('../../image/backing.jpg');
+  
+  @media screen and(min-resolution: 2dppx) {
+    background-image:$gradient,
+     url('../../image/backing@2x.jpg');
+  }
+}
+.creatives__name{
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 1;
+  
+  margin-bottom: 20px;
+  @include text-transform;
+}
+.creatives__about{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 1.0em;
+
+  @include text-transform;
+}
+.creatives__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 290px;
+}
+.creatives__text{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  
+ @include text-transform;
+ }
+.creatives__scroll{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap:20px;
+}

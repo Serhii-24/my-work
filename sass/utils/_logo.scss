@@ -1,0 +1,34 @@
+.logo{
+  width: 50px;
+  height: 50px;
+  padding: 14px;
+  
+  background-color: $logo-color;
+  
+  &--header{
+    z-index: 992;
+    position: relative;
+  }
+  &--footer{
+    z-index: 99;
+  }
+}
+.logo__under{
+  width: 50px;
+  height: 50px;
+
+  background-color: $white-color;
+  &--header{
+    position: absolute;
+    z-index: 991;
+    top: 20%;
+    left: 1%;
+  }
+  &--footer{
+  position: absolute;
+    top: 20%;
+    left: 2%;
+  }
+}
+
+
